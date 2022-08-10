@@ -10,10 +10,8 @@ from keras.preprocessing.sequence import pad_sequences
 import json
 import re
 
-model_sentimant = tf.keras.models.load_model("concrete")
-
-
-model = tf.keras.models.load_model('concrete')
+pickle_in = open("concrete","rb")
+classifier=pickle.load(pickle_in)
 st.write("""
          # Enhance your Image :) 
          """
