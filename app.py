@@ -10,10 +10,10 @@ from keras.preprocessing.sequence import pad_sequences
 import json
 import re
 
-model_sentimant = tf.keras.models.load_model("model.h5")
+model_sentimant = tf.keras.models.load_model("concrete")
 
 
-model = tf.keras.models.load_model('My_Model_1.h5')
+model = tf.keras.models.load_model('concrete')
 st.write("""
          # Enhance your Image :) 
          """
